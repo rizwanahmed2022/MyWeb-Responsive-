@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    /* font-family: "Pacifico", serif;
+    font-family: "Agu Display", serif;
+    font-family: "Indie Flower", serif;
+    font-family: "Shadows Into Light", serif; */
+}
+body{
+    background-color: black;
+    font-family: "Dancing Script", serif;
+
+}
+
+#navbar{
+    position: relative;
+    font-family: "Lilita One", serif;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+#navbar::before{
+    content: "";
+    position: absolute;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+    
+}
+
+#navbar div{
+    width: 60%;
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin: 21px 10px;
+}
+
+#navbar ul{
+    padding-top: 10px;
+
+    display: flex;
+}
+
+#navbar ul li{
+    list-style: none;
+}
+#navbar ul li a{
+    display: block;
+
+    padding: 10px 22px;
+    text-decoration: none;
+}
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+    display: block;
+}
+
+
+
+#logo2  {
+    border-radius: 100%;
+    width: 3%;
+    padding: 12px 22px;
+}
+
+#home{
+    height: 530px;
+    padding: 12px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+
+}
+
+
+#home video{
+    position: absolute; 
+    top: 0; left: 0; 
+    width: 100%; 
+    height: 625px; 
+    object-fit: cover; 
+    z-index: -2;
+    opacity: .6; 
+    overflow: hidden;
+}
+#home div{
+    width: 80%;
+}
+#home div h1,h2{
+    font-size: 3rem;
+}
+#home div p{
+    font-size: 1.6rem;
+}
+#home div button{
+    cursor: pointer;
+    margin-top: 22px;
+    padding: 6px 22px;
+    font-size: 0.81rem;
+    background-color: white;
+    color: black;
+}
+#home div button:hover{
+    background-color: black;
+    color: white;
+}
+
+#contact{
+    display: flex;
+    width: 100%;
+    height: 480px;
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    border-bottom: 5px solid white;
+}
+#contact::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 480px;
+    background: url('contact-us.jpg') no-repeat center center/cover;
+    z-index: -2;
+    opacity: 0.9;
+    filter: blur(3px);
+}
+
+.chalid{
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    width: 49%;
+    height: 100%;
+    border: 2px solid yellow;
+}
+.inputs{
+    padding: 3px 8px;
+    border: none;
+    margin: 5px 2px;
+    height: 1.42rem;
+    width: 70%;
+    box-shadow: 2px 2px 5px 2px black;
+}
+#message{
+    padding: 3px 8px;
+    border: none;
+    margin: 5px 2px;
+    height: 12rem;
+    width: 70%;
+    box-shadow: 2px 2px 5px 2px black;
+}
+
+#end{
+    height: 45px;
+}
+
+
+
+@media (max-width: 750px){
+
+    #home video{
+        height: 25%; 
+        object-fit: cover; 
+        z-index: -2;
+        opacity: .6; 
+    }
+    #navbar ul li a{
+        padding: 10px 12px;
+    }
+
+    #logo2  {
+        border-radius: 100%;
+        width: 8%;
+        padding: 10px 22px;
+    }
+
+
+
+    #home{
+        height: 300px;
+        padding: 12px 0px;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    
+    #home div{
+        width: 83%;
+
+    }
+    #home div h1,h2{
+        font-size: 2rem;
+    }
+    #home div h2{
+        font-size: 2rem;
+    }
+    #home div p{
+        opacity: 0;
+        font-size: 1px;
+    }
+
+
+
+
