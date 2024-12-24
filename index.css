@@ -178,6 +178,14 @@ body{
 
 
 
+.grid-container{
+    background-color: rgb(98, 81, 49);
+    display: grid; 
+    grid-template-columns: 1fr; 
+    gap: 20px; /* Space between sections */ 
+    padding: 20px;
+}
+
 
 
 
