@@ -170,7 +170,8 @@ body{
         opacity: .6; 
     }
     #navbar ul li a{
-        padding: 10px 12px;
+        font-size: 0.8rem;
+        padding: 10px 8px;
     }
 
     #logo2  {
@@ -182,7 +183,7 @@ body{
 
 
     #home{
-        height: 300px;
+        height: 280px;
         padding: 12px 0px;
         align-items: center;
         justify-content: center;
@@ -190,20 +191,32 @@ body{
     }
     
     #home div{
-        width: 83%;
+        height: 84%;
+        width: 88%;
 
     }
     #home div h1,h2{
-        font-size: 2rem;
+        font-size: 2.1rem;
     }
     #home div h2{
-        font-size: 2rem;
+        font-size: 1.92rem;
     }
     #home div p{
         opacity: 0;
         font-size: 1px;
     }
 
-
-
-
+#home div button{
+    cursor: pointer;
+    margin-top: 22px;
+    padding: 6px 15px;
+    border-radius: 10%;
+    font-size: 0.81rem;
+    background-color: black;
+    color: white;
+}
+#home div button:hover{
+    background-color: black;
+    color: white;
+}
+}
