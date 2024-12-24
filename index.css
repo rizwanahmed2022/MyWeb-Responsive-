@@ -75,7 +75,9 @@ body{
     align-items: center;
     justify-content: center;
     overflow: hidden;
+
 }
+
 
 #home video{
     position: absolute; 
@@ -190,7 +192,7 @@ body{
 
 
 
-.contact-form {
+#contact-form {
     background-color: rgba(69, 1, 1, 0.825);
     padding: 20px 50px;
     border-radius: 10px;
@@ -201,7 +203,7 @@ body{
 
 }
 
-.contact-form h2 {
+#contact-form h2 {
     margin-bottom: 20px;
     font-size: 2.5rem;
 }
@@ -324,31 +326,31 @@ button:hover {
     background-color: black;
     color: white;
 }
-    
 #home div button:hover{
     background-color: black;
     color: white;
 }
 
-.contact-form {
+#contact-form {
     padding: 10px 10px;
     border-radius: 40px;
     text-align: center;
-    width: 330px;
+    width: 250px;
 
 }
 
 .form-group input,
 .form-group textarea {
-    font-size: 0.75rem;
     color: black;
     width: 90%;
     padding: 5px;
     border-radius: 15px;
+    font-size: 0.75rem;
+
 }
 
-.contact-form h2 {
-    font-size: 1.82rem;
+#contact-form h2 {
+    font-size: 2rem;
 }
 
 
