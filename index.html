@@ -49,18 +49,48 @@
         </section>
 
 
-<footer id="contact">
-    <div class="chalid">
-    </div>
-    <div class="chalid">
-        <input class="inputs" type="text" name="" id="" placeholder="Full Name">
-        <input class="inputs" type="email" name="" id="" placeholder="Email">
-        <input type="text" name="" id="message">
-        <button>Submit</button>
-        
-    </div>
-</footer>
 
+
+
+
+
+
+
+
+
+    <div class="contact-form">
+
+      <h2>Contact Me</h2>
+      <form action="submit_form.php" method="post">
+        <div class="form-group">
+          <label for="full-name">Full Name</label>
+          <input type="text" id="full-name" name="full-name" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+      
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    
 <footer id="end"></footer>
   </body>
 </html>
