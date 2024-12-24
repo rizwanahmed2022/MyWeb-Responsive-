@@ -164,7 +164,7 @@ body{
 @media (max-width: 750px){
 
     #home video{
-        height: 25%; 
+        height: 45%; 
         object-fit: cover; 
         z-index: -2;
         opacity: .6; 
