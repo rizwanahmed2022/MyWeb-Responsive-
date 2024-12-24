@@ -83,7 +83,7 @@ body{
     position: absolute; 
     top: 0; left: 0; 
     width: 100%; 
-    height: 625px; 
+    height: 100%; 
     object-fit: cover; 
     z-index: -2;
     opacity: .6; 
@@ -154,7 +154,7 @@ body{
     margin: 5px 2px;
     height: 1.42rem;
     width: 70%;
-    box-shadow: 2px 2px 5px 2px black;
+    
 }
 #message{
     padding: 3px 8px;
@@ -162,12 +162,10 @@ body{
     margin: 5px 2px;
     height: 12rem;
     width: 70%;
-    box-shadow: 2px 2px 5px 2px black;
+    box-shadow: -2px 5px 5px 4px rgb(86, 86, 86);
 }
 
-#end{
-    height: 45px;
-}
+
 
 
 
@@ -224,7 +222,6 @@ body{
    padding: 15px 0px;
 }
 .aboutin h1{
-
 color: rgb(250, 250, 120);   
 }
 
@@ -233,12 +230,15 @@ color: rgb(250, 250, 120);
 
 
 
-
+#backgroundcontact{
+background-color: rgb(241, 250, 196);
+border: 2px solid black;
+padding: 32px 10px;
+}
 #contact-form {
-    background-color: rgba(69, 1, 1, 0.825);
+    background-color: rgba(0, 0, 0, 0.147);
     padding: 20px 50px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
     width: 40%;
     margin: 2px auto;
@@ -246,6 +246,8 @@ color: rgb(250, 250, 120);
 }
 
 #contact-form h2 {
+    color: black;
+    font-weight: bold;
     margin-bottom: 20px;
     font-size: 2.5rem;
 }
@@ -260,6 +262,8 @@ color: rgb(250, 250, 120);
     font-family: Arial, Helvetica, sans-serif;
     display: block;
     font-weight: bold;
+    color: black;
+
 }
 
 .form-group input,
@@ -270,6 +274,8 @@ color: rgb(250, 250, 120);
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 1rem;
+    box-shadow: -2px 5px 8px 2px rgb(86, 86, 86);
+
 }
 
 button {
@@ -285,6 +291,29 @@ button {
 
 button:hover {
     background-color: rgb(34, 34, 255);
+}
+
+
+#end{
+    display: flex;
+}
+
+
+.footercontainer{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    height: 100%;
+    text-align: center;
+    padding-left: 20px;
+    padding-top: 10px;
+    display: flex;
+    width: 45%;
+}
+
+.footercontainer img{
+    width: 4%;
+    margin: 0;
+    padding: 6px;
 }
 
 
@@ -446,6 +475,27 @@ button:hover {
 .aboutin h1{
     font-size: 0.9rem;
 
+}
+
+
+
+#end{
+    display: flex;
+}
+
+
+.footercontainer{
+    font-size: 0rem;
+    height: 100%;
+    text-align: center;
+    padding-left: 0px;
+    padding-top: 0px;
+    display: flex;
+}
+
+.footercontainer img{
+    width: 9%;
+    padding: px;
 }
 
 
