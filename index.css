@@ -309,15 +309,22 @@ button:hover {
         font-size: 1px;
     }
 
+#home span img{
+        width: 6%;
+        padding: 0px 8px 0px 0px;
+        padding-top: 7px;
+    }
+
 #home div button{
     cursor: pointer;
-    margin-top: 22px;
+    margin-top: 15px;
     padding: 6px 15px;
     border-radius: 10%;
     font-size: 0.81rem;
     background-color: black;
     color: white;
 }
+    
 #home div button:hover{
     background-color: black;
     color: white;
