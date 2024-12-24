@@ -323,7 +323,7 @@ button:hover {
     padding: 10px 10px;
     border-radius: 40px;
     text-align: center;
-    width: 450px;
+    width: 250px;
 
 }
 
@@ -333,6 +333,10 @@ button:hover {
     width: 90%;
     padding: 5px;
     border-radius: 15px;
+}
+
+.contact-form h2 {
+    font-size: 2rem;
 }
 
 
