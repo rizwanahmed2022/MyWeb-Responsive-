@@ -8,7 +8,7 @@
     font-family: "Shadows Into Light", serif; */
 }
 body{
-    background-color: black;
+    background-color: rgb(67, 67, 67);
     font-family: "Dancing Script", serif;
 
 }
@@ -98,6 +98,16 @@ body{
 #home div p{
     font-size: 1.6rem;
 }
+
+#home span img{
+    width: 2%;
+    padding: 16px 8px 0px 0px;
+}
+#home span img:hover{
+    border-bottom: 3px solid white;
+}
+
+
 #home div button{
     cursor: pointer;
     margin-top: 22px;
@@ -169,39 +179,45 @@ body{
 
 
 
+
+
+
+
+
+
 .contact-form {
-    background-color: #380b0b;
-    padding: 20px 40px;
+    background-color: rgb(0, 0, 0);
+    padding: 20px 50px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
-    width: 100%;
-    max-width: 500px;
+    width: 40%;
+    margin: 20px auto;
+    margin-bottom: 20px;
+
 }
 
 .contact-form h2 {
     margin-bottom: 20px;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
 }
 
 .form-group {
-
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     text-align: left;
+    width: 100%;
 }
 
 .form-group label {
     font-family: Arial, Helvetica, sans-serif;
     display: block;
-    margin-bottom: 5px;
     font-weight: bold;
 }
 
 .form-group input,
 .form-group textarea {
     color: black;
-    
-    width: 100%;
+    width: 90%;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -216,14 +232,12 @@ button {
     color: #fff;
     font-size: 1rem;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.9s ease;
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: rgb(34, 34, 255);
 }
-
-
 
 
 
@@ -304,4 +318,23 @@ button:hover {
     background-color: black;
     color: white;
 }
+
+.contact-form {
+    padding: 10px 10px;
+    border-radius: 40px;
+    text-align: center;
+    width: 450px;
+
+}
+
+.form-group input,
+.form-group textarea {
+    color: black;
+    width: 90%;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+
+
 }
