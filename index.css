@@ -52,6 +52,8 @@ body{
 
     padding: 10px 22px;
     text-decoration: none;
+    transition: background-color 0.9s ease;
+
 }
 #navbar ul li a:hover{
     color: black;
