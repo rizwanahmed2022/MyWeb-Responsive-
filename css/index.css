@@ -3,14 +3,14 @@
     padding: 0;
     color: white;
     /* font-family: "Pacifico", serif;
-    font-family: "Agu Display", serif;
-    font-family: "Indie Flower", serif;
     font-family: "Shadows Into Light", serif; */
 }
 body{
     background-color: rgb(46, 42, 42);
 
     font-family: "Dancing Script", serif;
+
+
 
 }
 
@@ -216,7 +216,7 @@ body{
 
 
 #projectheading{
-    font-size: 2.5rem;
+    font-size: 2.1rem;
     color: rgb(255, 255, 132);
     width: 100%;
     text-align: center;
@@ -370,24 +370,15 @@ button:hover {
 
 #end{
     display: flex;
+    width: 100%;
+    padding: 14px 0;
+    font-size: 1.3rem;
+    justify-content: center;
+    align-items: center;
 }
-
-.footercontainer{
-    color: ;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1rem;
-    height: 100%;
-    text-align: center;
-    padding-left: 20px;
-    padding-top: 10px;
-    display: flex;
-    width: 45%;
-}
-
-.footercontainer img{
-    width: 4%;
-    margin: 0;
-    padding: 6px;
+#end:hover{
+    text-decoration: underline;
+    color: rgb(99, 99, 252)
 }
 
 
