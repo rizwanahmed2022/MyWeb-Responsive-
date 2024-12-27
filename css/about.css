@@ -197,3 +197,44 @@ body{
     
     }
     
+    #about{
+        width: 90%;
+        margin: auto;
+    }
+    
+    .aboutin img{
+        width: 100%;
+        margin: auto;
+    }
+    .aboutin{
+        border: none;
+        width: 100%;
+        padding: 0;
+    }
+    .aboutinp{
+        border: none;
+    
+        margin: 0;
+        width: 100%;
+        padding: 0;
+    }
+    
+    .aboutinp p{
+        font-size: 0.71rem;
+    }
+    
+    .aboutin h3{
+        
+        font-size: 0.81rem;
+    
+    }
+    
+    .aboutin h1{
+        font-size: 0.9rem;
+    
+    }
+    .aboutinp h3{
+        padding-top: 22px;
+        font-size: 0.9rem;
+    
+    }
