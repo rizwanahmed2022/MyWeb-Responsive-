@@ -446,14 +446,14 @@ button:hover {
     }
     #navbar ul li a{
         border-right: none;
-        font-size: 0.8rem;
-        padding: 0px 8px;
+        font-size: 0.7rem;
+        padding: 0px 5px;
     }
 
     #logo2  {
         border-radius: 100%;
         width: 8%;
-        padding: 10px 22px;
+        padding: 10px 19px;
         margin: 0;
     }
 
@@ -589,6 +589,7 @@ button:hover {
     font-size: 0.9rem;
 
 }
+
 #projectheading{
     font-size: 1rem;
     border-bottom: 2px solid rgba(255, 255, 255, 0.515);
