@@ -31,14 +31,13 @@ body{
 }
 #navbar::before{
     border-radius: 122px;
-
     content: "";
     position: absolute;
-    background-color: rgba(22, 21, 24, 0);
+    background-color: rgb(22, 21, 23);
     height: 100%;
     width: 100%;
     z-index: -1;
-    /* opacity: 0.7; */
+    opacity: 1;
 }
 
 #navbar div{
@@ -61,13 +60,13 @@ body{
     display: block;
     padding: 10px 22px;
     text-decoration: none;
-    transition: background-color 0.9s ease;
+    transition:  0.3s ease;
 
 }
 #navbar ul li a:hover{
-    border-bottom: 2px solid white;
+    transform: translateY(9px);
     display: block;
-    transition: background-color 0.9s ease;
+    transition:  0.3s ease;
 
 }
 
@@ -79,50 +78,46 @@ body{
     padding: 0px 0px;
     margin-right: 52px;
 }
-
+#logo2:hover{
+    transform: rotate(360deg);
+    transition: 0.9s ease;
+}
 
 
 #about{
     width: 100%;
     margin: auto;
-    font-family: Arial, Helvetica, sans-serif;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#about span{
+    padding: 2%;
     display: flex;
     flex-direction: column;
-    height: auto;
-    margin-top: -100px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+   background-color: rgba(0, 0, 0, 0.237);
 }
 #about::before{
     content: "";
     position: absolute;
-    background: url('https://cdn.pixabay.com/photo/2022/10/28/10/22/cat-7552840_1280.jpg') no-repeat center center/cover; red green blue);
-    height: 100%;
+    background: url('../wallpapers/about1.jpg') no-repeat center center/cover; red green blue);
+    top: 0;
+    left: 0;
+    height: 100vh;
     width: 100%;
     z-index: -1;
-    opacity: 1;
+    opacity: 0.7;
 
 }
 
 
-.aboutin{
-    width: 80%;
-    margin: auto;
-    margin-top: 13rem;
-    padding: 10px 10px;
-    
-    display: flex;
-    flex-direction: row; 
-
-}
-.aboutin img{
-    width: 36%;
-    margin: auto;
-}
-.aboutin div{
-    width: 46%;
-    margin: auto;
-}
 .aboutinp{
-    width: 60%;
+    width: 66%;
     margin: auto;
     margin-top: 5rem;
     font-size: 1.92rem;
@@ -131,6 +126,7 @@ body{
 }
 
 .aboutinp p{
+    padding-top: 20px;
     line-height: 1.5;
 
 }
@@ -199,24 +195,30 @@ body{
     #about{
         width: 100%;
         margin: auto;
+        height: 80vh;
+        /* position: absolute; */
+        top: 0;
+        left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     
-    .aboutin img{
-        width: 48%;
-        margin-left: 50%;
+    #about span{
+        font-size: 0.5rem;
+        width: 100%;
+        margin-top: 50%;
     }
+    #about::before{
+        height: 80vh;
+        opacity: 1;
     
-    .aboutin{
-        flex-direction: column;
-        width: 99%;
-        padding: 0;
-        margin-top: 6rem;
     }
-    .aboutin div{
-        width: 90%;
-        margin: auto;
-        padding-bottom: 3rem;
+    .aboutinp h3{
+    margin-bottom: 10px;        
+    
     }
+
     .aboutinp{
         border: none;
         margin: auto;
@@ -229,13 +231,12 @@ body{
     }
     
     .aboutin h3{
-        
         font-size: 0.81rem;
     
     }
     
     .aboutin h1{
-        font-size: 0.9rem;
+        font-size: .9rem;
     
     }
     .aboutinp h3{
@@ -251,15 +252,20 @@ body{
         flex-direction: column;
     }
     .section img{
-        width: 100%;
+        width: 90%;
+        padding-bottom: 10px;
+
     
     }
     .section div{
-        width: 95%;
+                width: 95%;
     }
     .section div p{
         font-size: 0.81rem;
         line-height: 1.6;
+    }
+    .section div li{
+       list-style: none;
     }
     
     
