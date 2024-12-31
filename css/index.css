@@ -414,13 +414,14 @@ body{
 
 #contact {
     display: flex;
-    width: 100%;
+    width: 80%;
     height: 480px;
     padding: 20px;
     background-color: rgb(46, 42, 42);
     justify-content: center;
     align-items: center;
     position: relative;
+    margin: auto;
 }
 
 .contact-form {
@@ -633,6 +634,7 @@ body{
 
 
 #about{
+    padding: 10px;
     width: 100%;
     margin: auto;
 }
@@ -643,7 +645,7 @@ body{
 }
 .aboutin{
     border: none;
-    width: 100%;
+    width: 90%;
     padding: 0;
 }
 .aboutinp{
@@ -681,12 +683,18 @@ body{
 
 #contact {
     display: flex;
-    width: 100%;
+    width: 90%;
     height: auto;
     padding: 0px;
     flex-direction: column;
 }
-
+#contact .contact-form span{
+    width: 30%;
+    font-size: 0.9rem;
+    padding: 5px 5px;
+    margin: auto;
+    margin-top: 10px;
+}
 
 #projectheading{
     font-size: 1rem;
