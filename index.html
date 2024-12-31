@@ -17,7 +17,9 @@
     <nav id="navbar">
       <img src="./images/logo.jpg" alt="" id="logo2" />
       <ul>
-        <li style="border-bottom: 2px solid white;" class="item"><a href="#home">Portfolio</a></li>
+        <li style="border-bottom: 2px solid white" class="item">
+          <a href="#home">Portfolio</a>
+        </li>
         <li class="item"><a href="./html/about.html">About</a></li>
         <li class="item"><a href="./html/skills.html">Skills</a></li>
         <li class="item"><a href="#contact-form">Contact</a></li>
@@ -91,7 +93,12 @@
             expert, team leader, solo worker, and full-stack developer. My
             expertise lies in creating dynamic and responsive websites, and I
             thrive on solving complex problems and bringing creative ideas to
-            life through code...<a style="color: rgb(85, 74, 245);" href="./html/about.html"> read more</a>
+            life through code...<a
+              style="color: rgb(85, 74, 245)"
+              href="./html/about.html"
+            >
+              read more</a
+            >
           </p>
           <br />
         </div>
@@ -101,9 +108,10 @@
         </div>
       </div>
       <br />
-
-
-      <h1 id="projectheading">My Projects</h1>
+      <br /><br />
+      <h1 class="projectheading">My Projects</h1>
+      <br />
+      <hr />
       <div id="project">
         <div class="projectcard">
           <img src="./images/microsoft.png" alt="" />
@@ -120,7 +128,6 @@
           >
         </div>
 
-        
         <div class="projectcard">
           <img src="./images/protfolio.png" alt="" />
           <h3>Personal Portfolio</h3>
@@ -136,6 +143,16 @@
           >
         </div>
 
+
+
+
+
+
+
+
+
+
+        
         <div class="projectcard">
           <img src="./images/Subnetmask.webp" alt="" />
           <h3>IP and Subnets</h3>
@@ -148,36 +165,112 @@
           >
         </div>
         <div class="projectcard">
-          <img src="https://cdn.pixabay.com/photo/2023/06/01/06/03/arrow-8032744_960_720.jpg" alt="" />
+          <img
+            src="https://cdn.pixabay.com/photo/2023/06/01/06/03/arrow-8032744_960_720.jpg"
+            alt=""
+          />
           <a href="./html/projects.html">See All</a>
+        </div>
+      </div>
+      <hr />
 
+      <br />
+      <br />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+      <div class="skills">
+        <div class="backside">
+          <img src="./images/icons/html.png" alt=""> <p>HTML:</p>
+          <div class="container">
+            <div class="half-background"></div>
+          </div>
+          <p>90%</p>
+        </div>
+
+        <div class="backside">
+          <img src="./images/icons/css.png" alt=""> <p>CSS:</p>
+          <div class="container">
+            <div class="half-background1"></div>
+          </div>
+          <p>80%</p>
+        </div>
+
+
+        <div class="backside">
+          <img src="./images/icons/njs.png" alt=""> <p>Node.js:</p>
+          <div class="container">
+            <div class="half-background4"></div>
+          </div>
+          <p>60%</p>
+        </div>
+
+
+        <div class="backside">
+         <img src="./images/icons/js.png" alt=""> <p>JS:</p>
+          <div class="container">
+            <div class="half-background2"></div>
+          </div>
+          <p>70%</p>
+        </div>
+        <div class="backside">
+          <img src="./images/icons/c.png" alt=""> <p>C++:</p>
+          <div class="container">
+            <div class="half-background3"></div>
+          </div>
+          <p>65%</p>
         </div>
       </div>
 
-      <div id="backgroundcontact">
-        <div id="contact-form">
-          <h2>Contact Me</h2>
 
-          <div class="form-group">
-            <label for="full-name">Full Name</label>
-            <input type="text" id="full-name" name="full-name" required />
-          </div>
 
-          <div class="form-group">
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" required />
-          </div>
+<section id="contact">
+ <div class="contact-form">
+  <span style="background-color: #1877F2;"> <img src="./images/icons/facebook.png" alt=""><p>facebook</p></span>
+  <span style="background-color: #1DA1F2"><img src="./images/icons/connection.png" alt=""><p>twitter</p></span>
+  <span style="background-color: #E1306C;"><img src="./images/icons/instagram.png" alt=""><p>instagram</p></span>
+  <span style="background-color: #0077B5;"><img src="./images/icons/linkedin.png" alt=""><p>linkedin</p></span>
+</div>
+  <form action="#" method="#" class="contact-form">
+    <input type="text" name="name" placeholder="Full Name" required />
+    <input type="email" name="_replyto" placeholder="Email Address" required />
+    <textarea
+      name="message"
+      id=""
+      cols="30"
+      rows="10"
+      placeholder="Message"
+      required
+    ></textarea>
+    <button type="submit">Submit</button>
+  </form>
 
-          <div class="form-group">
-            <label for="message">Message</label>
-            <textarea id="message" name="message" rows="2" required></textarea>
-          </div>
+</div>
+</section>
 
-          <button type="submit">Submit</button>
-        </div>
-      </div>
-    </div>
 
-    <footer id="end">irizwanms@gmail.com</footer>
+
+      <br />
+      <br />
+
+
+
+
+
+    
+    <footer id="end"> <a href="mailto:irizwanms@gmail.com">irizwanms@gmail.com</a></footer>
   </body>
 </html>
