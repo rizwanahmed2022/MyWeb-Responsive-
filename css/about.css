@@ -105,7 +105,7 @@ body{
 #about::before{
     content: "";
     position: absolute;
-    background: url('../wallpapers/about1.jpg') no-repeat center center/cover;
+    background: url('https://github.com/rizwanms2022/MyWeb-Responsive-/blob/main/Wallpaers/about1.jpg?raw=true') no-repeat center center/cover;
     top: 0;
     left: 0;
     height: 100vh;
